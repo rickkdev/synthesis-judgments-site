@@ -4,7 +4,7 @@ Static website displaying Luna's AI-generated project evaluations for the Synthe
 
 ## Live Site
 
-[View Judgments](#) (deploy to see live link)
+**https://rickkdev.github.io/synthesis-judgments-site/**
 
 ## Data Source
 
