@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna's Synthesis Judgments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold mb-2">Luna's Synthesis Judgments</h1>
+            <p class="text-gray-600">AI-generated project evaluations for the Synthesis hackathon by Luna (Clawdbot agent)</p>
+            <p class="text-sm text-gray-500 mt-2">
+                Evaluator: Luna | Model: claude-sonnet-4-5 | 
+                <a href="https://github.com/rickkdev/luna-synthesis-judgments" class="text-blue-600 hover:underline">GitHub</a>
+            </p>
+        </header>
+
+        <div class="mb-8 bg-white rounded-lg shadow-sm p-6">
+            <h2 class="text-2xl font-semibold mb-4">Evaluation Criteria</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Innovation (1-10)</h3>
+                    <p class="text-sm text-gray-600">How novel and creative is the project?</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Execution (1-10)</h3>
+                    <p class="text-sm text-gray-600">How well-built and functional is the project?</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Impact (1-10)</h3>
+                    <p class="text-sm text-gray-600">What is the potential impact or usefulness?</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Presentation (1-10)</h3>
+                    <p class="text-sm text-gray-600">How well is the project described and documented?</p>
+                </div>
+                <div class="md:col-span-2">
+                    <h3 class="font-semibold text-lg mb-1">Agent Use (1-10)</h3>
+                    <p class="text-sm text-gray-600">How effectively does the project use AI agents?</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="judgments"></div>
+    </div>
+
+    <script>
+        async function loadJudgments() {
+            try {
+                const response = await fetch('JUDGE-001.json');
+                const data = await response.json();
+                displayJudgments(data);
+            } catch (error) {
+                document.getElementById('judgments').innerHTML = '<p class="text-red-600">Error loading judgments</p>';
+                console.error(error);
+            }
+        }
+
+        function displayJudgments(data) {
+            const container = document.getElementById('judgments');
+            
+            const header = document.createElement('div');
+            header.className = 'mb-6';
+            header.innerHTML = `
+                <h2 class="text-2xl font-semibold mb-2">Batch ${data.batch_id}</h2>
+                <p class="text-gray-600">Evaluated: ${new Date(data.evaluated_at).toLocaleDateString()}</p>
+                <p class="text-sm text-gray-500">${data.projects.length} projects evaluated</p>
+            `;
+            container.appendChild(header);
+
+            data.projects.forEach((project, index) => {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-lg shadow-sm p-6 mb-6';
+                
+                const totalScore = Object.values(project.scores).reduce((a, b) => a + b, 0);
+                const avgScore = (totalScore / 5).toFixed(1);
+                
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold">${index + 1}. ${project.project_name}</h3>
+                            <p class="text-sm text-gray-500">ID: ${project.project_id}</p>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-3xl font-bold ${getScoreColor(avgScore)}">${avgScore}</div>
+                            <div class="text-xs text-gray-500">avg score</div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-5 gap-2 mb-4">
+                        ${Object.entries(project.scores).map(([key, value]) => `
+                            <div class="text-center">
+                                <div class="text-2xl font-bold ${getScoreColor(value)}">${value}</div>
+                                <div class="text-xs text-gray-600 capitalize">${key}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div class="prose max-w-none mb-4">
+                        <p class="text-gray-700 leading-relaxed">${project.summary}</p>
+                    </div>
+
+                    <details class="mb-4">
+                        <summary class="cursor-pointer font-semibold text-gray-700 hover:text-gray-900">Detailed Rationale</summary>
+                        <div class="mt-4 space-y-3">
+                            ${Object.entries(project.rationale).map(([key, value]) => `
+                                <div>
+                                    <h4 class="font-semibold text-sm text-gray-700 capitalize mb-1">${key} (${project.scores[key]}/10)</h4>
+                                    <p class="text-sm text-gray-600">${value}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>
+
+                    ${project.notable_strengths.length > 0 ? `
+                        <div class="mb-3">
+                            <h4 class="font-semibold text-sm text-green-700 mb-2">✓ Notable Strengths</h4>
+                            <ul class="text-sm text-gray-700 list-disc list-inside space-y-1">
+                                ${project.notable_strengths.map(s => `<li>${s}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+
+                    ${project.concerns.length > 0 ? `
+                        <div>
+                            <h4 class="font-semibold text-sm text-amber-700 mb-2">⚠ Concerns</h4>
+                            <ul class="text-sm text-gray-700 list-disc list-inside space-y-1">
+                                ${project.concerns.map(c => `<li>${c}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+                `;
+                
+                container.appendChild(card);
+            });
+        }
+
+        function getScoreColor(score) {
+            if (score >= 9) return 'text-green-600';
+            if (score >= 7) return 'text-blue-600';
+            if (score >= 5) return 'text-amber-600';
+            return 'text-red-600';
+        }
+
+        loadJudgments();
+    </script>
+</body>
+</html>
