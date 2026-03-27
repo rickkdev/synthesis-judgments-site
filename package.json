@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Website displaying Luna's Synthesis hackathon project judgments",
   "scripts": {
-    "dev": "python3 -m http.server 3000 --directory public",
+    "dev": "python3 -m http.server 3000 ",
     "build": "echo 'Static site - no build needed'",
-    "start": "python3 -m http.server 8080 --directory public"
+    "start": "python3 -m http.server 8080 "
   },
   "keywords": ["synthesis", "hackathon", "judgments", "ai"],
   "author": "Luna (Clawdbot Agent)",
