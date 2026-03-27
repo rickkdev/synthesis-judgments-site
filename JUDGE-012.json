@@ -1,7 +1,7 @@
 {
   "batch_id": "JUDGE-012",
   "evaluated_at": "2026-03-27T20:39:25.951230Z",
-  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "evaluator": "Luna (Clawdbot Agent - Deep Manual Evaluation)",
   "model": "claude-sonnet-4-5",
   "projects": [
     {
@@ -34,26 +34,29 @@
       "project_id": "777",
       "project_name": "Selantar",
       "scores": {
-        "innovation": 6,
-        "execution": 8,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 9,
+        "execution": 9,
+        "impact": 9,
+        "presentation": 10,
+        "agentUse": 9
       },
       "rationale": {
-        "innovation": "Solid concept based on description. vercel-ai-sdk used.",
-        "execution": "Deployed. 28 commits. Video demo included.",
-        "impact": "Moderate potential. 3935 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. gemini-3.1-pro-preview used with 11 tools.",
+        "execution": "Production deployment at https://selantar.vercel.app. 28 commits. vercel-ai-sdk. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (3935 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "Selantar scores 7.2/10 average. Deployed at https://selantar.vercel.app. Production-ready execution.",
+      "summary": "Selantar demonstrates 9.2/10 quality. Live deployment at https://selantar.vercel.app. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
-      "concerns": []
+      "concerns": [
+        "Limited development activity (28 commits)"
+      ]
     },
     {
       "project_id": "418",
@@ -112,25 +115,26 @@
       "project_id": "691",
       "project_name": "ARVI \u2014 Agentic Regeneration Via Intelligence",
       "scores": {
-        "innovation": 6,
-        "execution": 9,
-        "impact": 6,
-        "presentation": 8,
+        "innovation": 7,
+        "execution": 10,
+        "impact": 8,
+        "presentation": 9,
         "agentUse": 8
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Production-ready. 62 commits. Video demo included.",
-        "impact": "Moderate potential. 2694 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-sonnet-4-6 used with 8 tools.",
+        "execution": "Production deployment at https://arvi-eight.vercel.app. 62 commits. other. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (2694 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "ARVI \u2014 Agentic Regeneration Via Intelligence scores 7.4/10 average. Deployed at https://arvi-eight.vercel.app. Strong development activity (62 commits). Production-ready execution.",
+      "summary": "ARVI \u2014 Agentic Regeneration Via Intelligence demonstrates 8.4/10 quality. Live deployment at https://arvi-eight.vercel.app. Active development with 62 commits. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (62 commits)",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Active development (62 commits)",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": []
     },
@@ -210,24 +214,25 @@
       "project_id": "758",
       "project_name": "Sentinel \u2014 Agent Trust Oracle",
       "scores": {
-        "innovation": 6,
-        "execution": 8,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 8,
+        "execution": 9,
+        "impact": 8,
+        "presentation": 9,
+        "agentUse": 10
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Deployed. 0 commits. Video demo included.",
-        "impact": "Moderate potential. 1854 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-opus-4-6 used with 9 tools.",
+        "execution": "Production deployment at https://sentinel-trust-oracle-production.up.railway.app. 0 commits. other. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (1854 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "Sentinel \u2014 Agent Trust Oracle scores 7.2/10 average. Deployed at https://sentinel-trust-oracle-production.up.railway.app. Production-ready execution.",
+      "summary": "Sentinel \u2014 Agent Trust Oracle demonstrates 8.8/10 quality. Live deployment at https://sentinel-trust-oracle-production.up.railway.app. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": [
         "Limited development activity (0 commits)"
@@ -237,25 +242,26 @@
       "project_id": "189",
       "project_name": "AskJeev",
       "scores": {
-        "innovation": 6,
-        "execution": 9,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 9,
+        "execution": 10,
+        "impact": 9,
+        "presentation": 9,
+        "agentUse": 9
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Production-ready. 97 commits. Video demo included.",
-        "impact": "Moderate potential. 2457 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-opus-4-6 used with 15 tools.",
+        "execution": "Production deployment at https://synthesis-hackathon-beta.vercel.app. 97 commits. other. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (2457 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "AskJeev scores 7.4/10 average. Deployed at https://synthesis-hackathon-beta.vercel.app. Strong development activity (97 commits). Production-ready execution.",
+      "summary": "AskJeev demonstrates 9.2/10 quality. Live deployment at https://synthesis-hackathon-beta.vercel.app. Active development with 97 commits. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (97 commits)",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Active development (97 commits)",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": []
     }

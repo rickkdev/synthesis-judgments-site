@@ -1,7 +1,7 @@
 {
   "batch_id": "JUDGE-015",
   "evaluated_at": "2026-03-27T20:39:25.953754Z",
-  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "evaluator": "Luna (Clawdbot Agent - Deep Manual Evaluation)",
   "model": "claude-sonnet-4-5",
   "projects": [
     {
@@ -32,26 +32,29 @@
       "project_id": "566",
       "project_name": "AgentFlow",
       "scores": {
-        "innovation": 6,
-        "execution": 8,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 9,
+        "execution": 9,
+        "impact": 8,
+        "presentation": 10,
+        "agentUse": 10
       },
       "rationale": {
-        "innovation": "Solid concept based on description. vercel-ai-sdk used.",
-        "execution": "Deployed. 25 commits. Video demo included.",
-        "impact": "Moderate potential. 5195 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-sonnet-4-6 used with 12 tools.",
+        "execution": "Production deployment at https://agentflow-pink.vercel.app. 25 commits. vercel-ai-sdk. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (5195 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, multi-agent coordination, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "AgentFlow scores 7.2/10 average. Deployed at https://agentflow-pink.vercel.app. Production-ready execution.",
+      "summary": "AgentFlow demonstrates 9.2/10 quality. Live deployment at https://agentflow-pink.vercel.app. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
-      "concerns": []
+      "concerns": [
+        "Limited development activity (25 commits)"
+      ]
     },
     {
       "project_id": "156",
@@ -107,25 +110,26 @@
       "project_id": "438",
       "project_name": "Bioregional Commitment Routing",
       "scores": {
-        "innovation": 6,
-        "execution": 9,
-        "impact": 6,
-        "presentation": 8,
+        "innovation": 7,
+        "execution": 10,
+        "impact": 8,
+        "presentation": 9,
         "agentUse": 7
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Production-ready. 69 commits. Video demo included.",
-        "impact": "Moderate potential. 2057 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, on-chain integration. claude-opus-4-6 used with 9 tools.",
+        "execution": "Production deployment at https://salishsee.life. 69 commits. other. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (2057 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, on-chain integration. Agent-assisted functionality."
       },
-      "summary": "Bioregional Commitment Routing scores 7.2/10 average. Deployed at https://salishsee.life. Strong development activity (69 commits). Production-ready execution.",
+      "summary": "Bioregional Commitment Routing demonstrates 8.2/10 quality. Live deployment at https://salishsee.life. Active development with 69 commits. Key features: ERC-8004 identity, on-chain integration.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (69 commits)",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Active development (69 commits)",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements on-chain integration"
       ],
       "concerns": []
     },

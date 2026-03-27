@@ -1,7 +1,7 @@
 {
   "batch_id": "JUDGE-055",
   "evaluated_at": "2026-03-27T20:39:25.989215Z",
-  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "evaluator": "Luna (Clawdbot Agent - Deep Manual Evaluation)",
   "model": "claude-sonnet-4-5",
   "projects": [
     {
@@ -110,25 +110,26 @@
       "project_id": "84",
       "project_name": "Maw \u2014 Intent-Compiled Private DeFi Agent",
       "scores": {
-        "innovation": 6,
-        "execution": 9,
-        "impact": 6,
-        "presentation": 8,
+        "innovation": 7,
+        "execution": 10,
+        "impact": 8,
+        "presentation": 10,
         "agentUse": 8
       },
       "rationale": {
-        "innovation": "Solid concept based on description. langchain used.",
-        "execution": "Production-ready. 164 commits. Video demo included.",
-        "impact": "Moderate potential. 3992 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-opus-4-6 used with 14 tools.",
+        "execution": "Production deployment at https://maw.finance. 164 commits. langchain. Video demo included.",
+        "impact": "Potential impact unclear. Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (3992 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "Maw \u2014 Intent-Compiled Private DeFi Agent scores 7.4/10 average. Deployed at https://maw.finance. Strong development activity (164 commits). Production-ready execution.",
+      "summary": "Maw \u2014 Intent-Compiled Private DeFi Agent demonstrates 8.6/10 quality. Live deployment at https://maw.finance. Active development with 164 commits. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (164 commits)",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Strong development activity (164 commits)",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": []
     },

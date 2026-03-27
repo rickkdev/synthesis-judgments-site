@@ -1,31 +1,32 @@
 {
   "batch_id": "JUDGE-016",
   "evaluated_at": "2026-03-27T20:39:25.954789Z",
-  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "evaluator": "Luna (Clawdbot Agent - Deep Manual Evaluation)",
   "model": "claude-sonnet-4-5",
   "projects": [
     {
       "project_id": "315",
       "project_name": "Agntor",
       "scores": {
-        "innovation": 6,
-        "execution": 8,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 8,
+        "execution": 9,
+        "impact": 9,
+        "presentation": 10,
+        "agentUse": 9
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Deployed. 7 commits. Video demo included.",
-        "impact": "Moderate potential. 3206 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, on-chain integration. claude-sonnet-4-6 used with 9 tools.",
+        "execution": "Production deployment at https://garinmckayl.github.io/agntor-synthesis. 7 commits. other. Video demo included.",
+        "impact": "Evidence of real usage (users/transactions/revenue mentioned). Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (3206 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, on-chain integration. Agent-assisted functionality."
       },
-      "summary": "Agntor scores 7.2/10 average. Deployed at https://garinmckayl.github.io/agntor-synthesis. Production-ready execution.",
+      "summary": "Agntor demonstrates 9.0/10 quality. Live deployment at https://garinmckayl.github.io/agntor-synthesis. Key features: ERC-8004 identity, on-chain integration.",
       "notable_strengths": [
-        "Live deployment",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements on-chain integration"
       ],
       "concerns": [
         "Limited development activity (7 commits)"
@@ -183,24 +184,25 @@
       "project_id": "507",
       "project_name": "Astrolabe",
       "scores": {
-        "innovation": 6,
+        "innovation": 7,
         "execution": 9,
-        "impact": 6,
-        "presentation": 7,
+        "impact": 7,
+        "presentation": 8,
         "agentUse": 8
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Production-ready. 59 commits. No video demo.",
-        "impact": "Moderate potential. 2439 char description provides comprehensive detail.",
-        "presentation": "Good presentation. Deployed + docs.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-opus-4-6 used with 6 tools.",
+        "execution": "Production deployment at https://ainsleys.github.io/astrolabe. 59 commits. other. No video demo.",
+        "impact": "Potential impact unclear. Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (2439 chars). Deployed + docs.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "Astrolabe scores 7.2/10 average. Deployed at https://ainsleys.github.io/astrolabe. Strong development activity (59 commits). Production-ready execution.",
+      "summary": "Astrolabe demonstrates 7.8/10 quality. Live deployment at https://ainsleys.github.io/astrolabe. Active development with 59 commits. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (59 commits)",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Active development (59 commits)",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": []
     },

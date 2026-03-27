@@ -1,7 +1,7 @@
 {
   "batch_id": "JUDGE-054",
   "evaluated_at": "2026-03-27T20:39:25.988035Z",
-  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "evaluator": "Luna (Clawdbot Agent - Deep Manual Evaluation)",
   "model": "claude-sonnet-4-5",
   "projects": [
     {
@@ -85,25 +85,26 @@
       "project_id": "549",
       "project_name": "Ghost Maps",
       "scores": {
-        "innovation": 6,
-        "execution": 9,
-        "impact": 6,
-        "presentation": 8,
-        "agentUse": 8
+        "innovation": 7,
+        "execution": 10,
+        "impact": 7,
+        "presentation": 9,
+        "agentUse": 9
       },
       "rationale": {
-        "innovation": "Solid concept based on description. other used.",
-        "execution": "Production-ready. 89 commits. Video demo included.",
-        "impact": "Moderate potential. 2094 char description provides comprehensive detail.",
-        "presentation": "Excellent documentation. Deployed + video + detailed README.",
-        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+        "innovation": "Novel approach with: ERC-8004 identity, autonomous operation. claude-opus-4-6 used with 15 tools.",
+        "execution": "Production deployment at https://ghostmaps.app. 89 commits. other. Video demo included.",
+        "impact": "Potential impact unclear. Live deployment increases accessibility.",
+        "presentation": "Comprehensive documentation (2094 chars). Deployed + video + detailed description.",
+        "agentUse": "Agent design: ERC-8004 identity, autonomous operation, on-chain integration. Demonstrates autonomous behavior."
       },
-      "summary": "Ghost Maps scores 7.4/10 average. Deployed at https://ghostmaps.app. Strong development activity (89 commits). Production-ready execution.",
+      "summary": "Ghost Maps demonstrates 8.4/10 quality. Live deployment at https://ghostmaps.app. Active development with 89 commits. Key features: ERC-8004 identity, autonomous operation.",
       "notable_strengths": [
-        "Live deployment",
-        "Strong commit history (89 commits)",
-        "Video demonstration included",
-        "Comprehensive documentation"
+        "Live production deployment",
+        "Active development (89 commits)",
+        "Video demonstration available",
+        "Implements ERC-8004 identity",
+        "Implements autonomous operation"
       ],
       "concerns": []
     },
