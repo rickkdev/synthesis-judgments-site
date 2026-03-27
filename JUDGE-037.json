@@ -1,0 +1,263 @@
+{
+  "batch_id": "JUDGE-037",
+  "evaluated_at": "2026-03-27T20:39:25.973169Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "294",
+      "project_name": "Growth Base",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 5 commits. Video demo included.",
+        "impact": "Moderate potential. 945 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Growth Base scores 6.4/10 average. Deployed at https://growthbase-web.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (5 commits)"
+      ]
+    },
+    {
+      "project_id": "282",
+      "project_name": "News Alpha Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. Video demo included.",
+        "impact": "Limited scope. 1719 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "News Alpha Agent scores 6.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "328",
+      "project_name": "AutoFund: The Self-Sustaining DeFi Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 45 commits. No video demo.",
+        "impact": "Moderate potential. 9372 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AutoFund: The Self-Sustaining DeFi Agent scores 7.0/10 average. Deployed at https://devanshug2307.github.io/autofund-agent/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "473",
+      "project_name": "Proof of Witness",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. Video demo included.",
+        "impact": "Limited scope. 761 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Proof of Witness scores 5.6/10 average. Deployed at https://pow.0000402.xyz. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "614",
+      "project_name": "Ouroboros",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 6 commits. No video demo.",
+        "impact": "Limited scope. 900 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Ouroboros scores 6.4/10 average. Deployed at https://ouroboros-roan.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (6 commits)"
+      ]
+    },
+    {
+      "project_id": "544",
+      "project_name": "UniswapAutoTrader",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. No video demo.",
+        "impact": "Limited scope. 482 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "UniswapAutoTrader scores 5.8/10 average. Deployed at http://95.179.186.20:5000. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "634",
+      "project_name": "Status Risk Oracle",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. Video demo included.",
+        "impact": "Limited scope. 915 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Status Risk Oracle scores 6.0/10 average. Deployed at http://20.255.56.109:3000. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "267",
+      "project_name": "SpendControl",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 66 commits. Video demo included.",
+        "impact": "Moderate potential. 1225 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "SpendControl scores 7.0/10 average. Deployed at https://spendcontrol.xyz. Strong development activity (66 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (66 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "725",
+      "project_name": "Regen Eliza \u2014 Omni-Agent for Agentic Public Goods",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 833 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Regen Eliza \u2014 Omni-Agent for Agentic Public Goods scores 6.8/10 average. Deployed at https://8004.regeneliza.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "421",
+      "project_name": "DelegateFlow",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 10 commits. Video demo included.",
+        "impact": "Moderate potential. 3008 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "DelegateFlow scores 6.8/10 average. Deployed at https://delegate-flow-green.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    }
+  ]
+}

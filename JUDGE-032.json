@@ -1,0 +1,267 @@
+{
+  "batch_id": "JUDGE-032",
+  "evaluated_at": "2026-03-27T20:39:25.968770Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "335",
+      "project_name": "Nullius Protocol",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 32 commits. No video demo.",
+        "impact": "Limited scope. 1006 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Nullius Protocol scores 5.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "337",
+      "project_name": "LEASH",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. Video demo included.",
+        "impact": "Limited scope. 497 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "LEASH scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "350",
+      "project_name": "Taste \ufffd Human Judgment for the AI Economy",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. Video demo included.",
+        "impact": "Moderate potential. 3974 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Taste \ufffd Human Judgment for the AI Economy scores 7.0/10 average. Deployed at https://humantaste.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "336",
+      "project_name": "Aiker",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Limited scope. 536 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Aiker scores 5.8/10 average. Deployed at https://aiker.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "616",
+      "project_name": "$COACH: Automated Buy-and-Burn for AI Coaching",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Moderate potential. 1854 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. "
+      },
+      "summary": "$COACH: Automated Buy-and-Burn for AI Coaching scores 6.6/10 average. Deployed at https://coaching.metaspn.network. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "376",
+      "project_name": "Surety Protocol",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 4 commits. No video demo.",
+        "impact": "Limited scope. 472 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Surety Protocol scores 6.2/10 average. Deployed at https://sepolia.basescan.org/address/0x1148cDAaaB4fB9e0c93F43AFe12a7CEE945e40e7. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "432",
+      "project_name": "Cielo",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 8 commits. No video demo.",
+        "impact": "Limited scope. 481 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Cielo scores 5.6/10 average. Deployed at https://cielo-seven.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (8 commits)"
+      ]
+    },
+    {
+      "project_id": "160",
+      "project_name": "SCOUT \u2014 Autonomous Prediction Market Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 7 commits. Video demo included.",
+        "impact": "Limited scope. 1591 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "SCOUT \u2014 Autonomous Prediction Market Agent scores 6.0/10 average. Early stage project.",
+      "notable_strengths": [
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (7 commits)"
+      ]
+    },
+    {
+      "project_id": "582",
+      "project_name": "Yield Farms",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Limited scope. 1126 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Yield Farms scores 5.8/10 average. Deployed at https://farms.saimmy.com/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "372",
+      "project_name": "Credence",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 2 commits. No video demo.",
+        "impact": "Moderate potential. 1083 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Credence scores 6.2/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (2 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    }
+  ]
+}

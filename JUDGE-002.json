@@ -1,0 +1,259 @@
+{
+  "batch_id": "JUDGE-002",
+  "evaluated_at": "2026-03-27T20:39:25.941372Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "752",
+      "project_name": "DiversiFi - Multi-Chain AI Wealth Protection",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. vercel-ai-sdk used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 1240 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "DiversiFi - Multi-Chain AI Wealth Protection scores 6.6/10 average. Deployed at https://diversifiapp.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "83",
+      "project_name": "BlindOracle",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 4 commits. Video demo included.",
+        "impact": "Moderate potential. 2744 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "BlindOracle scores 6.8/10 average. Deployed at https://craigmbrown.com/dashboards/20260308-agent-reputation-dashboard.html. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "16",
+      "project_name": "AgentEscrowV4",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 13 commits. No video demo.",
+        "impact": "Moderate potential. 647 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "AgentEscrowV4 scores 5.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "109",
+      "project_name": "EMET \u2014 Trustless Agent Reputation on Base",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 124 commits. Video demo included.",
+        "impact": "Moderate potential. 964 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "EMET \u2014 Trustless Agent Reputation on Base scores 6.6/10 average. Deployed at https://emet-protocol.com. Strong development activity (124 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (124 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "555",
+      "project_name": "Charon",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 974 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Charon scores 6.8/10 average. Deployed at https://hub.docker.com/r/capgoblin/charon_agent. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "31",
+      "project_name": "AgentPay",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. anthropic-agents-sdk used.",
+        "execution": "Deployed. 4 commits. No video demo.",
+        "impact": "Limited scope. 723 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "AgentPay scores 5.8/10 average. Deployed at https://agentpay-nu.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "187",
+      "project_name": "Sovereign OS",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 34 commits. No video demo.",
+        "impact": "Limited scope. 1255 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Sovereign OS scores 6.4/10 average. Deployed at https://sovereign-os-snowy.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "32",
+      "project_name": "AgentScope",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 112 commits. No video demo.",
+        "impact": "Limited scope. 1360 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "AgentScope scores 6.2/10 average. Deployed at https://ghost-clio.github.io/agent-scope/. Strong development activity (112 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (112 commits)"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "176",
+      "project_name": "AgentScope",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 25 commits. No video demo.",
+        "impact": "Moderate potential. 1859 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AgentScope scores 7.0/10 average. Deployed at https://dashboard-three-smoky-78.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "33",
+      "project_name": "Zo Synthesis Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 12 commits. Video demo included.",
+        "impact": "Moderate potential. 1524 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Zo Synthesis Agent scores 7.2/10 average. Deployed at https://core.zo.space/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    }
+  ]
+}

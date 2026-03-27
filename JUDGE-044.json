@@ -1,0 +1,262 @@
+{
+  "batch_id": "JUDGE-044",
+  "evaluated_at": "2026-03-27T20:39:25.979002Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "352",
+      "project_name": "AutoResearch \u2014 Autonomous DEX Strategy Discovery",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 49 commits. Video demo included.",
+        "impact": "Moderate potential. 2737 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "AutoResearch \u2014 Autonomous DEX Strategy Discovery scores 6.8/10 average. Deployed at https://github.com/darks0l/autoresearch#live-execution. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "461",
+      "project_name": "RWA-ID Dashboard",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 6 commits. Video demo included.",
+        "impact": "Moderate potential. 976 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "RWA-ID Dashboard scores 6.2/10 average. Deployed at https://dashboard.rwa-id.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (6 commits)"
+      ]
+    },
+    {
+      "project_id": "474",
+      "project_name": "Status Zero Gas Notary",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. Video demo included.",
+        "impact": "Moderate potential. 891 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. "
+      },
+      "summary": "Status Zero Gas Notary scores 6.4/10 average. Deployed at https://notary.0000402.xyz. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "516",
+      "project_name": "Starchild",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 14 commits. Video demo included.",
+        "impact": "Moderate potential. 1882 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Starchild scores 7.0/10 average. Deployed at https://starchild-bay.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "70",
+      "project_name": "Molttail",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 491 commits. Video demo included.",
+        "impact": "Moderate potential. 2411 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Molttail scores 7.4/10 average. Deployed at https://molttail.vercel.app. Strong development activity (491 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (491 commits)",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "475",
+      "project_name": "AgentSphere",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 19 commits. Video demo included.",
+        "impact": "Limited scope. 879 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "AgentSphere scores 6.2/10 average. Deployed at https://agent-sphere-e94w.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "624",
+      "project_name": "Gitlawb Playground \u2014 AI App Builder on Bankr LLM",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 1522 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Gitlawb Playground \u2014 AI App Builder on Bankr LLM scores 6.2/10 average. Deployed at https://gitlawb.com/playground. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "64",
+      "project_name": "Darksol \u2014 Autonomous Agent Economy Stack",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 47 commits. Video demo included.",
+        "impact": "Moderate potential. 1585 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Darksol \u2014 Autonomous Agent Economy Stack scores 7.2/10 average. Deployed at https://github.com/darks0l/synthesis-agent#on-chain-artifacts. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "694",
+      "project_name": "YieldCore",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 782 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "YieldCore scores 5.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "542",
+      "project_name": "Longtail",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 33 commits. No video demo.",
+        "impact": "Limited scope. 1168 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Longtail scores 5.8/10 average. Deployed at https://frontend-ten-pearl-39.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    }
+  ]
+}

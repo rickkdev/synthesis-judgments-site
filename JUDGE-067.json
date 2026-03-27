@@ -1,0 +1,266 @@
+{
+  "batch_id": "JUDGE-067",
+  "evaluated_at": "2026-03-27T20:39:25.999939Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "72",
+      "project_name": "AI Agent Swarm - Autonomous Multi-Agent Coordination",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 10 commits. Video demo included.",
+        "impact": "Moderate potential. 2601 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AI Agent Swarm - Autonomous Multi-Agent Coordination scores 7.2/10 average. Deployed at http://188.137.250.160:8080/api/sentiment. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "708",
+      "project_name": "OWL",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 13 commits. Video demo included.",
+        "impact": "Moderate potential. 2692 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "OWL scores 7.0/10 average. Deployed at https://owl-moonpay.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "540",
+      "project_name": "Autonomous Agent Auction",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 13 commits. Video demo included.",
+        "impact": "Moderate potential. 1729 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Autonomous Agent Auction scores 6.8/10 average. Deployed at http://44.216.232.234:8899. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "772",
+      "project_name": "Film3 OS",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1877 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Film3 OS scores 6.8/10 average. Deployed at https://film3.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "778",
+      "project_name": "ProofWork",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Limited scope. 336 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "ProofWork scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "692",
+      "project_name": "ZARYNX VAAP",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1251 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "ZARYNX VAAP scores 6.8/10 average. Deployed at https://skill-deploy-hxmacndaqk-codex-agent-deploys.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "719",
+      "project_name": "mnemo",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 85 commits. Video demo included.",
+        "impact": "Limited scope. 1677 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "mnemo scores 6.4/10 average. Deployed at https://eduardogbg.github.io/mnemo/. Strong development activity (85 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (85 commits)",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "754",
+      "project_name": "Sieve",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 894 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Sieve scores 5.8/10 average. Deployed at https://sieve-61ja.onrender.com/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "748",
+      "project_name": "sigil",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. anthropic-agents-sdk used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 1479 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "sigil scores 6.8/10 average. Deployed at https://sigil.s0nderlabs.xyz. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "757",
+      "project_name": "AgentMesh",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 3863 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AgentMesh scores 6.8/10 average. Deployed at https://github.com/execute008/agentmesh. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    }
+  ]
+}

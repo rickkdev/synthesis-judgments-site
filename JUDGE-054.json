@@ -1,0 +1,268 @@
+{
+  "batch_id": "JUDGE-054",
+  "evaluated_at": "2026-03-27T20:39:25.988035Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "365",
+      "project_name": "stETH Agent Treasury",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 10 commits. Video demo included.",
+        "impact": "Limited scope. 1646 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "stETH Agent Treasury scores 6.4/10 average. Deployed at https://basescan.org/address/0x6DE964cD52cedb8D8FbD9BFE4c07f35c3cc9c1Ea. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "638",
+      "project_name": "Clankonomy",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 4 commits. No video demo.",
+        "impact": "Moderate potential. 2181 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Clankonomy scores 7.0/10 average. Deployed at https://clankonomy.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "394",
+      "project_name": "Agora: Private Commerce for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 32 commits. No video demo.",
+        "impact": "Moderate potential. 3988 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Agora: Private Commerce for AI Agents scores 6.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "549",
+      "project_name": "Ghost Maps",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 89 commits. Video demo included.",
+        "impact": "Moderate potential. 2094 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Ghost Maps scores 7.4/10 average. Deployed at https://ghostmaps.app. Strong development activity (89 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (89 commits)",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "629",
+      "project_name": "AgentChain \u2014 Decentralized Service Network for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 4271 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AgentChain \u2014 Decentralized Service Network for AI Agents scores 6.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "579",
+      "project_name": "\u00c6NS \u2014 ENS Root Explorer + Write Records",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 513 commits. Video demo included.",
+        "impact": "Limited scope. 426 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "\u00c6NS \u2014 ENS Root Explorer + Write Records scores 5.8/10 average. Deployed at https://aens-nine.vercel.app/. Strong development activity (513 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (513 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "289",
+      "project_name": "SentinelNet",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 6263 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "SentinelNet scores 7.0/10 average. Deployed at https://sentinelnet.gudman.xyz/dashboard. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "588",
+      "project_name": "Memory Kernel \u2014 Tree Presence",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 4 commits. Video demo included.",
+        "impact": "Moderate potential. 3317 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Memory Kernel \u2014 Tree Presence scores 7.2/10 average. Deployed at https://brunswick-plane.treeappreciation.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "322",
+      "project_name": "repo.box",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 306 commits. Video demo included.",
+        "impact": "Moderate potential. 1561 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "repo.box scores 6.8/10 average. Deployed at https://repo.box. Strong development activity (306 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (306 commits)",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "730",
+      "project_name": "Chrysalis",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1805 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Chrysalis scores 6.6/10 average. Deployed at https://dashboard-e0nzvp2hl-xjitsu.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "batch_id": "JUDGE-008",
+  "evaluated_at": "2026-03-27T20:39:25.947244Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "190",
+      "project_name": "Status Gasless Demo",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 280 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Status Gasless Demo scores 5.2/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "61",
+      "project_name": "Synthocracy",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 146 commits. No video demo.",
+        "impact": "Moderate potential. 1737 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Synthocracy scores 6.8/10 average. Deployed at https://synthocracy.up.railway.app. Strong development activity (146 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (146 commits)",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "416",
+      "project_name": "SynthPact",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 8 commits. Video demo included.",
+        "impact": "Limited scope. 786 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "SynthPact scores 6.2/10 average. Deployed at https://synthpact.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (8 commits)"
+      ]
+    },
+    {
+      "project_id": "63",
+      "project_name": "Observer Protocol",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 5 commits. No video demo.",
+        "impact": "Moderate potential. 3127 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Observer Protocol scores 7.0/10 average. Deployed at https://observerprotocol.org/demo. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (5 commits)"
+      ]
+    },
+    {
+      "project_id": "37",
+      "project_name": "Lido Yield Agent Treasury",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 37 commits. Video demo included.",
+        "impact": "Limited scope. 781 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Lido Yield Agent Treasury scores 5.6/10 average. Deployed at https://lidogent.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "541",
+      "project_name": "Callipsos \u2014 Safety Validation Layer for AI Agents in DeFi",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 44 commits. Video demo included.",
+        "impact": "Limited scope. 834 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Callipsos \u2014 Safety Validation Layer for AI Agents in DeFi scores 5.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    },
+    {
+      "project_id": "341",
+      "project_name": "bob is alive",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 25 commits. Video demo included.",
+        "impact": "Limited scope. 798 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "bob is alive scores 5.8/10 average. Deployed at https://bob-is-alive.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "81",
+      "project_name": "Lido-Ghost-Protocol",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 374 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Lido-Ghost-Protocol scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "92",
+      "project_name": "AgentRep",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 6 commits. No video demo.",
+        "impact": "Limited scope. 363 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "AgentRep scores 5.6/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (6 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "93",
+      "project_name": "Smart Allowance + Privacy-First Payments",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 21 commits. No video demo.",
+        "impact": "Moderate potential. 1850 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Smart Allowance + Privacy-First Payments scores 6.4/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    }
+  ]
+}

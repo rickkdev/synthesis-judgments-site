@@ -1,0 +1,261 @@
+{
+  "batch_id": "JUDGE-045",
+  "evaluated_at": "2026-03-27T20:39:25.979789Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "718",
+      "project_name": "ProspectAgent",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. anthropic-agents-sdk used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 889 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "ProspectAgent scores 6.2/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "485",
+      "project_name": "OctantInsight \u2014 Public Goods Data Analysis Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 3 commits. Video demo included.",
+        "impact": "Moderate potential. 1070 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "OctantInsight \u2014 Public Goods Data Analysis Agent scores 6.4/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "658",
+      "project_name": "Ouroboros \u2014 The Self-Funding AI Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Limited scope. 551 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Ouroboros \u2014 The Self-Funding AI Agent scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "479",
+      "project_name": "Ghost Engine \u2014 MEV-Resistant Uniswap v4 Hook",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 10 commits. No video demo.",
+        "impact": "Moderate potential. 1792 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Ghost Engine \u2014 MEV-Resistant Uniswap v4 Hook scores 6.4/10 average. Deployed at https://sepolia.uniscan.xyz/address/0x7c1d6541482fE64e4D73069B0d7D73C408Eee0c8. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "528",
+      "project_name": "CryptoPilot AI",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 14 commits. No video demo.",
+        "impact": "Moderate potential. 758 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "CryptoPilot AI scores 6.6/10 average. Deployed at https://crypto-agent.streamlit.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "434",
+      "project_name": "AgentWill",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. No video demo.",
+        "impact": "Limited scope. 1533 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AgentWill scores 6.6/10 average. Deployed at https://agentwill.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "162",
+      "project_name": "Receipts-First Blockchain Skills Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. Video demo included.",
+        "impact": "Limited scope. 743 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Receipts-First Blockchain Skills Agent scores 5.6/10 average. Deployed at https://cuongtranxuan.github.io/blockchain-skills-agent/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "369",
+      "project_name": "WalletSecure",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 12 commits. Video demo included.",
+        "impact": "Limited scope. 347 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "WalletSecure scores 5.6/10 average. Deployed at https://walletsecure-8ilj.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "362",
+      "project_name": "Nexus Ledger \u2014 The Trust Layer for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. Video demo included.",
+        "impact": "Moderate potential. 2918 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Nexus Ledger \u2014 The Trust Layer for AI Agents scores 7.2/10 average. Deployed at http://104.236.251.94:8765. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "506",
+      "project_name": "SmartSettle",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 24 commits. No video demo.",
+        "impact": "Limited scope. 786 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "SmartSettle scores 5.8/10 average. Deployed at https://smartsettle-seven.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    }
+  ]
+}

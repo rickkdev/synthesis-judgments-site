@@ -1,0 +1,263 @@
+{
+  "batch_id": "JUDGE-025",
+  "evaluated_at": "2026-03-27T20:39:25.962830Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "508",
+      "project_name": "SocialClaw",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 22 commits. Video demo included.",
+        "impact": "Moderate potential. 2692 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "SocialClaw scores 7.2/10 average. Deployed at https://soclaw.fun. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "266",
+      "project_name": "ThoughtProof",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 18 commits. Video demo included.",
+        "impact": "Moderate potential. 1349 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "ThoughtProof scores 6.6/10 average. Deployed at https://thoughtproof.ai/skill.md. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "243",
+      "project_name": "Clerk - AI Court Records Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Limited scope. 1111 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Clerk - AI Court Records Agent scores 6.0/10 average. Deployed at https://clerk.solvrlabs.ai. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "126",
+      "project_name": "Multi-Model Trading Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 10 commits. No video demo.",
+        "impact": "Limited scope. 1433 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Multi-Model Trading Agent scores 6.0/10 average. Deployed at https://sepolia.status.network/address/0xd71d8d4df6a32526f4b9a37b7071718542cdf030. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "377",
+      "project_name": "Behavioral Commitment Chain (BCC)",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Limited scope. 1004 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Behavioral Commitment Chain (BCC) scores 6.0/10 average. Deployed at https://sepolia.basescan.org/address/0x6276C0F6E664d8Ea8Da8FC05eEBff393b9EcAea2. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "607",
+      "project_name": "Job Scout Onchain",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 3 commits. No video demo.",
+        "impact": "Moderate potential. 500 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Job Scout Onchain scores 5.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (3 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "567",
+      "project_name": "Inchy \u2014 Self-Sustaining AI Crypto Asset Manager",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. vercel-ai-sdk used.",
+        "execution": "Deployed. 1 commits. Video demo included.",
+        "impact": "Moderate potential. 2473 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Inchy \u2014 Self-Sustaining AI Crypto Asset Manager scores 6.8/10 average. Deployed at https://inchy.arcumet.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "270",
+      "project_name": "PACT \u2014 Agent Freelance Network",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 5 commits. Video demo included.",
+        "impact": "Moderate potential. 1821 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "PACT \u2014 Agent Freelance Network scores 6.8/10 average. Deployed at https://thepactnetwork.netlify.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (5 commits)"
+      ]
+    },
+    {
+      "project_id": "272",
+      "project_name": "Remi \u2014 Sovereign AI Agent for Medicine and Macro Finance",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. Video demo included.",
+        "impact": "Limited scope. 1002 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Remi \u2014 Sovereign AI Agent for Medicine and Macro Finance scores 6.0/10 average. Early stage project.",
+      "notable_strengths": [
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "351",
+      "project_name": "Autonomous Fabiettus Primus - Self-Sustaining Trading Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 944 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Autonomous Fabiettus Primus - Self-Sustaining Trading Agent scores 6.0/10 average. Deployed at https://autonomous-trading-agent.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "batch_id": "JUDGE-030",
+  "evaluated_at": "2026-03-27T20:39:25.967199Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "155",
+      "project_name": "ENS Identity Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 5 commits. No video demo.",
+        "impact": "Limited scope. 1446 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "ENS Identity Agent scores 5.8/10 average. Deployed at https://sepolia.status.network/address/0x91865eb867b152fcb5ae35c048d548e2f8a6e5cd. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (5 commits)"
+      ]
+    },
+    {
+      "project_id": "327",
+      "project_name": "HelloStatus - Gasless AI-Assisted Deploy on Status Network",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 3 commits. No video demo.",
+        "impact": "Moderate potential. 722 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "HelloStatus - Gasless AI-Assisted Deploy on Status Network scores 5.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (3 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "332",
+      "project_name": "Beaver Warrior Sentinel \u2014 ERC-8004 Agent Trust Protocol",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Moderate potential. 1850 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Beaver Warrior Sentinel \u2014 ERC-8004 Agent Trust Protocol scores 7.0/10 average. Deployed at https://sentinel-beaver-warrior.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "125",
+      "project_name": "Celo Payment Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 8 commits. No video demo.",
+        "impact": "Moderate potential. 1263 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Celo Payment Agent scores 6.4/10 average. Deployed at https://sepolia.status.network/address/0xe06e80075469241b18373eaae872041954ee15be. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (8 commits)"
+      ]
+    },
+    {
+      "project_id": "153",
+      "project_name": "MetaMask Delegation Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 7 commits. No video demo.",
+        "impact": "Limited scope. 1487 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "MetaMask Delegation Agent scores 6.2/10 average. Deployed at https://sepolia.status.network/address/0x7e79bac3581f0588485116152e55e9d77bf6a7a1. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (7 commits)"
+      ]
+    },
+    {
+      "project_id": "295",
+      "project_name": "MoonPay DCA Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Limited scope. 1404 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "MoonPay DCA Agent scores 6.0/10 average. Deployed at https://github.com/agent-tools-org/moonpay-cli-agent. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "298",
+      "project_name": "EigenCompute Price Oracle",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. No video demo.",
+        "impact": "Moderate potential. 1683 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "EigenCompute Price Oracle scores 6.4/10 average. Deployed at https://github.com/agent-tools-org/eigencompute-agent. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "275",
+      "project_name": "OnChain AI Journal",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 13 commits. Video demo included.",
+        "impact": "Limited scope. 1543 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "OnChain AI Journal scores 6.4/10 average. Deployed at https://cute-semifreddo-d6a470.netlify.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "398",
+      "project_name": "Chorus",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 90 commits. Video demo included.",
+        "impact": "Moderate potential. 2849 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Chorus scores 7.2/10 average. Deployed at https://basescan.org/address/0xEE185FD094A4624B95120CBa8180c92f51794162. Strong development activity (90 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (90 commits)",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "470",
+      "project_name": "Mission Graph",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. Video demo included.",
+        "impact": "Limited scope. 794 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Mission Graph scores 5.8/10 average. Deployed at https://missiongraph.004334.xyz. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    }
+  ]
+}

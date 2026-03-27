@@ -1,0 +1,267 @@
+{
+  "batch_id": "JUDGE-060",
+  "evaluated_at": "2026-03-27T20:39:25.993355Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "664",
+      "project_name": "STAN \u2014 Super-Fan Tipping Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 6 commits. Video demo included.",
+        "impact": "Limited scope. 1160 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "STAN \u2014 Super-Fan Tipping Agent scores 6.4/10 average. Deployed at https://stan-agent-stan-api.vercel.app/landing.html. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (6 commits)"
+      ]
+    },
+    {
+      "project_id": "505",
+      "project_name": "Proof of Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. Video demo included.",
+        "impact": "Limited scope. 2135 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Proof of Agent scores 6.4/10 average. Deployed at https://eipieq.github.io/moonpay-dca-agent. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "695",
+      "project_name": "Ringfence",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 1770 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Ringfence scores 6.8/10 average. Deployed at https://ringfence-zeta.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "699",
+      "project_name": "\u00c2rc Align \u2014 Legal Personhood for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 6504 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "\u00c2rc Align \u2014 Legal Personhood for AI Agents scores 7.2/10 average. Deployed at https://agents.oa.city. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "676",
+      "project_name": "GaslessGreeter",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Limited scope. 510 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "GaslessGreeter scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "671",
+      "project_name": "sherwood",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 212 commits. Video demo included.",
+        "impact": "Limited scope. 1170 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "sherwood scores 6.8/10 average. Deployed at https://sherwood.sh. Strong development activity (212 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (212 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "100",
+      "project_name": "Guild \u2014 AI Agent Marketplace with Onchain Payments",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 13 commits. No video demo.",
+        "impact": "Moderate potential. 1040 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Guild \u2014 AI Agent Marketplace with Onchain Payments scores 6.2/10 average. Deployed at https://guild.city. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "543",
+      "project_name": "Planet Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 12 commits. No video demo.",
+        "impact": "Moderate potential. 587 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Planet Agent scores 5.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "703",
+      "project_name": "Vigil",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Limited scope. 2107 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Vigil scores 6.6/10 average. Deployed at https://svc-mn0q6itc9qru4k2q.buildwithlocus.com. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "704",
+      "project_name": "AgentNetwork - Agentic Social Marketplace",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Limited scope. 1232 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "AgentNetwork - Agentic Social Marketplace scores 6.4/10 average. Deployed at https://agentnetwork.world/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    }
+  ]
+}

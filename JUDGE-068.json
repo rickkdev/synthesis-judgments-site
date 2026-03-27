@@ -1,0 +1,261 @@
+{
+  "batch_id": "JUDGE-068",
+  "evaluated_at": "2026-03-27T20:39:26.000826Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "684",
+      "project_name": "PaylinkOps",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 16 commits. Video demo included.",
+        "impact": "Moderate potential. 1250 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "PaylinkOps scores 6.6/10 average. Deployed at https://www.paylinkops.xyz/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "381",
+      "project_name": "OptInPG \u2014 Ostrom-Augmented Public Goods Evaluator",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 880 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "OptInPG \u2014 Ostrom-Augmented Public Goods Evaluator scores 6.2/10 average. Deployed at https://optinpg-ostrom.netlify.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "639",
+      "project_name": "Know Your Human (KYH)",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 2605 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Know Your Human (KYH) scores 7.0/10 average. Deployed at https://knowyourhuman.xyz. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "756",
+      "project_name": "Cookie OS",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 980 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Cookie OS scores 6.2/10 average. Deployed at https://cookieos.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "723",
+      "project_name": "Hashapp",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1133 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Hashapp scores 6.6/10 average. Deployed at https://hashapp.finance/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "787",
+      "project_name": "AustinXBT",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 192 commits. No video demo.",
+        "impact": "Moderate potential. 1139 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "AustinXBT scores 6.4/10 average. Deployed at https://austinxbt.devfolio.co/. Strong development activity (192 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (192 commits)"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "773",
+      "project_name": "x402 Agent-X Paytech",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 7 commits. No video demo.",
+        "impact": "Limited scope. 638 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "x402 Agent-X Paytech scores 5.8/10 average. Deployed at https://x402-agent-x-paycrest.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (7 commits)"
+      ]
+    },
+    {
+      "project_id": "674",
+      "project_name": "Claw Wars",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 3069 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "Claw Wars scores 7.2/10 average. Deployed at https://claws-wars.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "775",
+      "project_name": "Selantar",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. vercel-ai-sdk used.",
+        "execution": "Deployed. 28 commits. Video demo included.",
+        "impact": "Moderate potential. 3935 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Selantar scores 7.2/10 average. Deployed at https://selantar.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "784",
+      "project_name": "Delta Rail",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 34 commits. Video demo included.",
+        "impact": "Limited scope. 531 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Delta Rail scores 5.4/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    }
+  ]
+}

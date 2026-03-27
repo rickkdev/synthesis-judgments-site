@@ -1,0 +1,269 @@
+{
+  "batch_id": "JUDGE-047",
+  "evaluated_at": "2026-03-27T20:39:25.981450Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "546",
+      "project_name": "Tachi Quest: Agent-Verified Social Engagement Layer",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 975 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Tachi Quest: Agent-Verified Social Engagement Layer scores 5.8/10 average. Deployed at https://tachi-quest.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "378",
+      "project_name": "Prism Oracle",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. Video demo included.",
+        "impact": "Moderate potential. 2384 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Prism Oracle scores 7.0/10 average. Deployed at https://oracle.agentskb.com. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "509",
+      "project_name": "@toju.network/x402",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. langchain used.",
+        "execution": "Code available. 260 commits. Video demo included.",
+        "impact": "Limited scope. 630 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "@toju.network/x402 scores 5.6/10 average. Strong development activity (260 commits). Functional implementation.",
+      "notable_strengths": [
+        "Strong commit history (260 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    },
+    {
+      "project_id": "538",
+      "project_name": "Decision Witness Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 506 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Decision Witness Agent scores 5.8/10 average. Deployed at https://decision-witness-agent.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "97",
+      "project_name": "Ottie \u2014 Self-Evolving Agent for Ethereum",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 13 commits. Video demo included.",
+        "impact": "Moderate potential. 2253 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Ottie \u2014 Self-Evolving Agent for Ethereum scores 7.2/10 average. Deployed at https://ottie.xyz. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "481",
+      "project_name": "Mandate Execution Layer",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 26 commits. Video demo included.",
+        "impact": "Moderate potential. 2163 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Mandate Execution Layer scores 6.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    },
+    {
+      "project_id": "737",
+      "project_name": "Delegata",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 9 commits. Video demo included.",
+        "impact": "Limited scope. 883 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Delegata scores 5.8/10 average. Deployed at https://delegata.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (9 commits)"
+      ]
+    },
+    {
+      "project_id": "24",
+      "project_name": "Spirit Protocol \u2014 Sovereign Agent Governance",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 852 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Spirit Protocol \u2014 Sovereign Agent Governance scores 5.8/10 average. Deployed at https://spiritprotocol.io. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "701",
+      "project_name": "Prisoners DAOlemma",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1743 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Prisoners DAOlemma scores 6.8/10 average. Deployed at https://prisoners-daolemma-nextjs.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "499",
+      "project_name": "AgentAttest",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 582 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "AgentAttest scores 5.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    }
+  ]
+}

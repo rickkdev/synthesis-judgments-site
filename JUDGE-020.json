@@ -1,0 +1,265 @@
+{
+  "batch_id": "JUDGE-020",
+  "evaluated_at": "2026-03-27T20:39:25.958465Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "205",
+      "project_name": "stETH Agent Treasury",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 193 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "stETH Agent Treasury scores 5.2/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "245",
+      "project_name": "Accessibility Auditor",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 36 commits. No video demo.",
+        "impact": "Moderate potential. 975 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "Accessibility Auditor scores 6.8/10 average. Deployed at https://hexdrive.tech. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "221",
+      "project_name": "ReceiptPilot",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Limited scope. 679 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "ReceiptPilot scores 6.2/10 average. Deployed at https://synthesis-agent-receipts-3xqv.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "184",
+      "project_name": "Veiled Oracle",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. Video demo included.",
+        "impact": "Limited scope. 1026 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Veiled Oracle scores 6.2/10 average. Deployed at https://veiledoracle.0000402.xyz. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "228",
+      "project_name": "x402 Agent Payment Suite",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 4 commits. Video demo included.",
+        "impact": "Moderate potential. 979 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "x402 Agent Payment Suite scores 6.8/10 average. Deployed at https://day2-x402-api-gateway.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (4 commits)"
+      ]
+    },
+    {
+      "project_id": "726",
+      "project_name": "MateOS \u2014 Zero Human Factory",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 1862 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "MateOS \u2014 Zero Human Factory scores 7.2/10 average. Deployed at https://mateos.tech. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "78",
+      "project_name": "Speed-CLI",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Moderate potential. 3053 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Speed-CLI scores 7.2/10 average. Deployed at https://www.npmjs.com/package/@lightspeed-cli/speed-cli. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "236",
+      "project_name": "x402gate \u2014 Pay-per-request AI Gateway",
+      "scores": {
+        "innovation": 6,
+        "execution": 9,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 62 commits. No video demo.",
+        "impact": "Moderate potential. 1149 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "x402gate \u2014 Pay-per-request AI Gateway scores 6.6/10 average. Deployed at https://x402gate.io. Strong development activity (62 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (62 commits)"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "357",
+      "project_name": "Agent Content Licensing (ACL)",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 11 commits. No video demo.",
+        "impact": "Limited scope. 812 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Agent Content Licensing (ACL) scores 5.6/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "216",
+      "project_name": "ProofPay",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 7 commits. Video demo included.",
+        "impact": "Moderate potential. 1083 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "ProofPay scores 7.0/10 average. Deployed at https://verify-sepolia.eigencloud.xyz/app/0xfd35d56978B8511611d16DE635Fd079AB7aB3A64. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (7 commits)"
+      ]
+    }
+  ]
+}

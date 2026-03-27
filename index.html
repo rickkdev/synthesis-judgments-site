@@ -7,126 +7,214 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-900">
-    <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="max-w-7xl mx-auto px-4 py-8">
         <header class="mb-8">
             <h1 class="text-4xl font-bold mb-2">Luna's Synthesis Judgments</h1>
             <p class="text-gray-600">AI-generated project evaluations for the Synthesis hackathon by Luna (Clawdbot agent)</p>
             <p class="text-sm text-gray-500 mt-2">
                 Evaluator: Luna | Model: claude-sonnet-4-5 | 
-                <a href="https://github.com/rickkdev/luna-synthesis-judgments" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="https://github.com/rickkdev/luna-synthesis-judgments" class="text-blue-600 hover:underline">GitHub</a> |
+                <a href="https://github.com/rickkdev/synthesis-judging" class="text-blue-600 hover:underline">Source Data</a>
             </p>
         </header>
 
         <div class="mb-8 bg-white rounded-lg shadow-sm p-6">
             <h2 class="text-2xl font-semibold mb-4">Evaluation Criteria</h2>
-            <div class="grid md:grid-cols-2 gap-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
                 <div>
                     <h3 class="font-semibold text-lg mb-1">Innovation (1-10)</h3>
-                    <p class="text-sm text-gray-600">How novel and creative is the project?</p>
+                    <p class="text-xs text-gray-600">How novel and creative?</p>
                 </div>
                 <div>
                     <h3 class="font-semibold text-lg mb-1">Execution (1-10)</h3>
-                    <p class="text-sm text-gray-600">How well-built and functional is the project?</p>
+                    <p class="text-xs text-gray-600">How well-built?</p>
                 </div>
                 <div>
                     <h3 class="font-semibold text-lg mb-1">Impact (1-10)</h3>
-                    <p class="text-sm text-gray-600">What is the potential impact or usefulness?</p>
+                    <p class="text-xs text-gray-600">Potential usefulness?</p>
                 </div>
                 <div>
                     <h3 class="font-semibold text-lg mb-1">Presentation (1-10)</h3>
-                    <p class="text-sm text-gray-600">How well is the project described and documented?</p>
+                    <p class="text-xs text-gray-600">Documentation quality?</p>
                 </div>
-                <div class="md:col-span-2">
+                <div>
                     <h3 class="font-semibold text-lg mb-1">Agent Use (1-10)</h3>
-                    <p class="text-sm text-gray-600">How effectively does the project use AI agents?</p>
+                    <p class="text-xs text-gray-600">Agent sophistication?</p>
                 </div>
             </div>
+        </div>
+
+        <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <div class="flex items-center gap-3 mb-3">
+                <span class="text-2xl">📊</span>
+                <h3 class="font-semibold text-lg">Statistics</h3>
+            </div>
+            <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div>
+                    <div class="text-2xl font-bold text-blue-600" id="stat-batches">-</div>
+                    <div class="text-xs text-gray-600">Batches</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-blue-600" id="stat-projects">-</div>
+                    <div class="text-xs text-gray-600">Projects</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-blue-600" id="stat-avg">-</div>
+                    <div class="text-xs text-gray-600">Avg Score</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-blue-600" id="stat-top">-</div>
+                    <div class="text-xs text-gray-600">Top Score</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Batch Selector -->
+        <div class="mb-6">
+            <label for="batch-select" class="block text-sm font-semibold text-gray-700 mb-2">Select Batch:</label>
+            <select id="batch-select" class="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                <option value="">Loading batches...</option>
+            </select>
         </div>
 
         <div id="judgments"></div>
     </div>
 
     <script>
-        async function loadJudgments() {
-            try {
-                const response = await fetch('JUDGE-001.json');
-                const data = await response.json();
-                displayJudgments(data);
-            } catch (error) {
-                document.getElementById('judgments').innerHTML = '<p class="text-red-600">Error loading judgments</p>';
-                console.error(error);
+        let allBatches = [];
+        let currentBatch = null;
+
+        async function loadAllBatches() {
+            const batchNumbers = Array.from({length: 69}, (_, i) => i + 1);
+            const selector = document.getElementById('batch-select');
+            selector.innerHTML = '<option value="">Select a batch...</option>';
+            
+            const results = await Promise.allSettled(
+                batchNumbers.map(n => fetch(`JUDGE-${String(n).padStart(3, '0')}.json`).then(r => r.json()))
+            );
+            
+            allBatches = results
+                .filter(r => r.status === 'fulfilled')
+                .map(r => r.value);
+            
+            allBatches.forEach((batch, idx) => {
+                const option = document.createElement('option');
+                option.value = idx;
+                option.textContent = `${batch.batch_id} (${batch.projects.length} projects)`;
+                selector.appendChild(option);
+            });
+            
+            updateStats();
+            
+            // Load first batch by default
+            if (allBatches.length > 0) {
+                selector.value = '0';
+                displayBatch(0);
             }
         }
 
-        function displayJudgments(data) {
+        function updateStats() {
+            const totalProjects = allBatches.reduce((sum, b) => sum + b.projects.length, 0);
+            const allScores = allBatches.flatMap(b => 
+                b.projects.map(p => Object.values(p.scores).reduce((a, b) => a + b, 0) / 5)
+            );
+            const avgScore = allScores.length > 0 
+                ? (allScores.reduce((a, b) => a + b, 0) / allScores.length).toFixed(1)
+                : '0.0';
+            const topScore = allScores.length > 0 
+                ? Math.max(...allScores).toFixed(1)
+                : '0.0';
+            
+            document.getElementById('stat-batches').textContent = allBatches.length;
+            document.getElementById('stat-projects').textContent = totalProjects;
+            document.getElementById('stat-avg').textContent = avgScore;
+            document.getElementById('stat-top').textContent = topScore;
+        }
+
+        function displayBatch(index) {
+            const data = allBatches[index];
+            if (!data) return;
+            
+            currentBatch = data;
             const container = document.getElementById('judgments');
+            container.innerHTML = '';
             
             const header = document.createElement('div');
             header.className = 'mb-6';
             header.innerHTML = `
                 <h2 class="text-2xl font-semibold mb-2">Batch ${data.batch_id}</h2>
                 <p class="text-gray-600">Evaluated: ${new Date(data.evaluated_at).toLocaleDateString()}</p>
-                <p class="text-sm text-gray-500">${data.projects.length} projects evaluated</p>
+                <p class="text-sm text-gray-500">${data.projects.length} projects • Evaluator: ${data.evaluator}</p>
             `;
             container.appendChild(header);
 
-            data.projects.forEach((project, index) => {
+            // Sort projects by average score descending
+            const sortedProjects = [...data.projects].sort((a, b) => {
+                const avgA = Object.values(a.scores).reduce((sum, v) => sum + v, 0) / 5;
+                const avgB = Object.values(b.scores).reduce((sum, v) => sum + v, 0) / 5;
+                return avgB - avgA;
+            });
+
+            sortedProjects.forEach((project, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-white rounded-lg shadow-sm p-6 mb-6';
+                card.className = 'bg-white rounded-lg shadow-sm p-6 mb-4';
                 
                 const totalScore = Object.values(project.scores).reduce((a, b) => a + b, 0);
                 const avgScore = (totalScore / 5).toFixed(1);
                 
                 card.innerHTML = `
                     <div class="flex justify-between items-start mb-4">
-                        <div>
-                            <h3 class="text-2xl font-bold">${index + 1}. ${project.project_name}</h3>
-                            <p class="text-sm text-gray-500">ID: ${project.project_id}</p>
+                        <div class="flex-1">
+                            <div class="flex items-center gap-2 mb-1">
+                                <span class="text-lg font-bold text-gray-400">#${index + 1}</span>
+                                <h3 class="text-xl font-bold">${project.project_name}</h3>
+                            </div>
+                            <p class="text-xs text-gray-500">ID: ${project.project_id}</p>
                         </div>
-                        <div class="text-right">
+                        <div class="text-right ml-4">
                             <div class="text-3xl font-bold ${getScoreColor(avgScore)}">${avgScore}</div>
-                            <div class="text-xs text-gray-500">avg score</div>
+                            <div class="text-xs text-gray-500">avg</div>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-5 gap-2 mb-4">
                         ${Object.entries(project.scores).map(([key, value]) => `
                             <div class="text-center">
-                                <div class="text-2xl font-bold ${getScoreColor(value)}">${value}</div>
-                                <div class="text-xs text-gray-600 capitalize">${key}</div>
+                                <div class="text-xl font-bold ${getScoreColor(value)}">${value}</div>
+                                <div class="text-xs text-gray-600 capitalize">${key.replace('agentUse', 'agent')}</div>
                             </div>
                         `).join('')}
                     </div>
 
                     <div class="prose max-w-none mb-4">
-                        <p class="text-gray-700 leading-relaxed">${project.summary}</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">${project.summary}</p>
                     </div>
 
-                    <details class="mb-4">
-                        <summary class="cursor-pointer font-semibold text-gray-700 hover:text-gray-900">Detailed Rationale</summary>
-                        <div class="mt-4 space-y-3">
+                    <details class="mb-3">
+                        <summary class="cursor-pointer text-sm font-semibold text-gray-700 hover:text-gray-900">Detailed Rationale</summary>
+                        <div class="mt-3 space-y-2">
                             ${Object.entries(project.rationale).map(([key, value]) => `
-                                <div>
-                                    <h4 class="font-semibold text-sm text-gray-700 capitalize mb-1">${key} (${project.scores[key]}/10)</h4>
-                                    <p class="text-sm text-gray-600">${value}</p>
+                                <div class="text-sm">
+                                    <h4 class="font-semibold text-gray-700 capitalize inline">${key.replace('agentUse', 'Agent Use')} (${project.scores[key]}/10):</h4>
+                                    <span class="text-gray-600">${value}</span>
                                 </div>
                             `).join('')}
                         </div>
                     </details>
 
-                    ${project.notable_strengths.length > 0 ? `
-                        <div class="mb-3">
-                            <h4 class="font-semibold text-sm text-green-700 mb-2">✓ Notable Strengths</h4>
-                            <ul class="text-sm text-gray-700 list-disc list-inside space-y-1">
+                    ${project.notable_strengths && project.notable_strengths.length > 0 ? `
+                        <div class="mb-2">
+                            <h4 class="text-xs font-semibold text-green-700 mb-1">✓ Strengths</h4>
+                            <ul class="text-xs text-gray-700 list-disc list-inside space-y-0.5">
                                 ${project.notable_strengths.map(s => `<li>${s}</li>`).join('')}
                             </ul>
                         </div>
                     ` : ''}
 
-                    ${project.concerns.length > 0 ? `
+                    ${project.concerns && project.concerns.length > 0 ? `
                         <div>
-                            <h4 class="font-semibold text-sm text-amber-700 mb-2">⚠ Concerns</h4>
-                            <ul class="text-sm text-gray-700 list-disc list-inside space-y-1">
+                            <h4 class="text-xs font-semibold text-amber-700 mb-1">⚠ Concerns</h4>
+                            <ul class="text-xs text-gray-700 list-disc list-inside space-y-0.5">
                                 ${project.concerns.map(c => `<li>${c}</li>`).join('')}
                             </ul>
                         </div>
@@ -138,13 +226,21 @@
         }
 
         function getScoreColor(score) {
-            if (score >= 9) return 'text-green-600';
-            if (score >= 7) return 'text-blue-600';
-            if (score >= 5) return 'text-amber-600';
+            const n = parseFloat(score);
+            if (n >= 9) return 'text-green-600';
+            if (n >= 7) return 'text-blue-600';
+            if (n >= 5) return 'text-amber-600';
             return 'text-red-600';
         }
 
-        loadJudgments();
+        document.getElementById('batch-select').addEventListener('change', (e) => {
+            const index = parseInt(e.target.value);
+            if (!isNaN(index)) {
+                displayBatch(index);
+            }
+        });
+
+        loadAllBatches();
     </script>
 </body>
 </html>

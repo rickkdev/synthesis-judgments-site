@@ -1,0 +1,256 @@
+{
+  "batch_id": "JUDGE-056",
+  "evaluated_at": "2026-03-27T20:39:25.990056Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "241",
+      "project_name": "Bagel Yieldbound",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Production-ready. 85 commits. Video demo included.",
+        "impact": "Limited scope. 1208 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Bagel Yieldbound scores 7.0/10 average. Deployed at https://yieldbound.com. Strong development activity (85 commits). Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Strong commit history (85 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "610",
+      "project_name": "AuditAgent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 21 commits. No video demo.",
+        "impact": "Limited scope. 772 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "AuditAgent scores 6.2/10 average. Deployed at https://audit-agent-fawn.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "309",
+      "project_name": "RateSlayer Gaming Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 17 commits. Video demo included.",
+        "impact": "Limited scope. 584 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "RateSlayer Gaming Agent scores 5.8/10 average. Deployed at https://rate-slayer-agent-dashboard.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "605",
+      "project_name": "OWSForge \u2014 OpenWallet Standard Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 609 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "OWSForge \u2014 OpenWallet Standard Agent scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "606",
+      "project_name": "Darwin Protocol \u2014 Autonomous On-Chain DeFi Baskets",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 23 commits. Video demo included.",
+        "impact": "Moderate potential. 1832 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Darwin Protocol \u2014 Autonomous On-Chain DeFi Baskets scores 6.8/10 average. Deployed at https://darwin-hwjn.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "95",
+      "project_name": "agent-insurance",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 7 commits. No video demo.",
+        "impact": "Moderate potential. 1900 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "agent-insurance scores 6.8/10 average. Deployed at https://agent-insurance-3mg5.vercel.app/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (7 commits)"
+      ]
+    },
+    {
+      "project_id": "71",
+      "project_name": "CryptoSentinel",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 23 commits. Video demo included.",
+        "impact": "Moderate potential. 1450 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "CryptoSentinel scores 7.2/10 average. Deployed at https://cryptosentinel-zeta.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "633",
+      "project_name": "ClankRank: AI Agent Madness",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 3 commits. No video demo.",
+        "impact": "Moderate potential. 803 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "ClankRank: AI Agent Madness scores 6.2/10 average. Deployed at https://www.clankrank.fun/tournament/predict. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (3 commits)"
+      ]
+    },
+    {
+      "project_id": "419",
+      "project_name": "SIMOGRANTS: Stigmergic Impact Oracle for Public Goods",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 22 commits. No video demo.",
+        "impact": "Moderate potential. 1609 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. "
+      },
+      "summary": "SIMOGRANTS: Stigmergic Impact Oracle for Public Goods scores 6.6/10 average. Deployed at https://web3guru888.github.io/simogrants/dashboard/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "166",
+      "project_name": "TrustCommit",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 22 commits. Video demo included.",
+        "impact": "Moderate potential. 1861 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "TrustCommit scores 6.8/10 average. Deployed at https://trust-commit.vercel.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    }
+  ]
+}

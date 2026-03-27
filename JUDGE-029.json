@@ -1,0 +1,262 @@
+{
+  "batch_id": "JUDGE-029",
+  "evaluated_at": "2026-03-27T20:39:25.966359Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "283",
+      "project_name": "Authority Ledger",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 6 commits. No video demo.",
+        "impact": "Limited scope. 293 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Authority Ledger scores 5.2/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (6 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "618",
+      "project_name": "Bond Trader",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 630 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Bond Trader scores 5.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "617",
+      "project_name": "Fusebox \u00d7 ERC-8004 \u2014 Agent Reputation Network",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 9 commits. No video demo.",
+        "impact": "Moderate potential. 1210 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Fusebox \u00d7 ERC-8004 \u2014 Agent Reputation Network scores 6.6/10 average. Deployed at https://erc8004.shortcircuit.ventures. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (9 commits)"
+      ]
+    },
+    {
+      "project_id": "287",
+      "project_name": "Quilvion-dAPP",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 442 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "Quilvion-dAPP scores 5.2/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "495",
+      "project_name": "Kartein",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 11 commits. No video demo.",
+        "impact": "Limited scope. 852 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Kartein scores 6.0/10 average. Deployed at https://sol-opal-rho.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "300",
+      "project_name": "AgentDrop",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 9 commits. Video demo included.",
+        "impact": "Limited scope. 811 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "AgentDrop scores 5.8/10 average. Deployed at https://github.com/seichris/agentdrop-cli. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (9 commits)"
+      ]
+    },
+    {
+      "project_id": "193",
+      "project_name": "GhostBroker",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 20 commits. Video demo included.",
+        "impact": "Limited scope. 582 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "GhostBroker scores 5.6/10 average. Deployed at https://synthesis-hackathon-ghostbroker.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "408",
+      "project_name": "HEXEBOTZERO x hexeosis \u2014 AI Agent Art Collection",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. No video demo.",
+        "impact": "Limited scope. 1959 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "HEXEBOTZERO x hexeosis \u2014 AI Agent Art Collection scores 6.2/10 average. Deployed at https://zephli.com. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "124",
+      "project_name": "Agent Service Registry",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 11 commits. No video demo.",
+        "impact": "Moderate potential. 1291 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Agent Service Registry scores 6.2/10 average. Deployed at https://sepolia.status.network/address/0x1fff91ad98056a6152492a9bb3f54e82979a92a6. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "152",
+      "project_name": "Venice AI Private Agent",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 7,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 6 commits. No video demo.",
+        "impact": "Limited scope. 1752 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Venice AI Private Agent scores 6.0/10 average. Deployed at https://sepolia.status.network/address/0x12856b9e0c9a4480781cbcdea782c39f4be1b63c. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "Limited development activity (6 commits)"
+      ]
+    }
+  ]
+}

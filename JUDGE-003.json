@@ -1,0 +1,266 @@
+{
+  "batch_id": "JUDGE-003",
+  "evaluated_at": "2026-03-27T20:39:25.942592Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "145",
+      "project_name": "Exoskeletons \u2014 Onchain Identity Infrastructure for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 11 commits. No video demo.",
+        "impact": "Moderate potential. 5334 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Exoskeletons \u2014 Onchain Identity Infrastructure for AI Agents scores 6.6/10 average. Deployed at https://exoagent.xyz. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "317",
+      "project_name": "Base Hunter Runtime",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 94 commits. Video demo included.",
+        "impact": "Moderate potential. 889 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Base Hunter Runtime scores 6.2/10 average. Strong development activity (94 commits). Functional implementation.",
+      "notable_strengths": [
+        "Strong commit history (94 commits)",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    },
+    {
+      "project_id": "747",
+      "project_name": "Sentinel - Verifiable Autonomous DeFi Guardian",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1108 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Sentinel - Verifiable Autonomous DeFi Guardian scores 6.8/10 average. Deployed at https://verify-sepolia.eigencloud.xyz/app/0x521474FDdD883aF3c65486405106FA63BF8B9C69. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "292",
+      "project_name": "Mandala \u2014 On-Chain Agent Coordination",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 2047 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Mandala \u2014 On-Chain Agent Coordination scores 6.4/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "247",
+      "project_name": "Status Sepolia Deployer Skill",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. No video demo.",
+        "impact": "Moderate potential. 493 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "Status Sepolia Deployer Skill scores 5.6/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "714",
+      "project_name": "YieldMind",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. No video demo.",
+        "impact": "Moderate potential. 1051 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "YieldMind scores 6.4/10 average. Deployed at https://sepolia.basescan.org/address/0x44cF9A17e5D976f3D63a497068E2eC2D0a36B9Ae. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "751",
+      "project_name": "StakeHumanSignal",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 777 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "StakeHumanSignal scores 6.0/10 average. Deployed at https://stakehumansignal.vercel.app. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "356",
+      "project_name": "VaultGuard: Private AI Reasoning with Verifiable Actions",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 17 commits. No video demo.",
+        "impact": "Moderate potential. 10480 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. Agent-first design."
+      },
+      "summary": "VaultGuard: Private AI Reasoning with Verifiable Actions scores 7.0/10 average. Deployed at https://devanshug2307.github.io/vaultguard-agent/. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "36",
+      "project_name": "DCNSTRCT AGENT",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 1 commits. No video demo.",
+        "impact": "Limited scope. 826 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "DCNSTRCT AGENT scores 5.6/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (1 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "73",
+      "project_name": "SwarmGym: On-Chain Safety Auditor for Multi-Agent AI Systems",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 2 commits. No video demo.",
+        "impact": "Moderate potential. 1488 char description provides adequate detail.",
+        "presentation": "Good presentation. Repo available.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "SwarmGym: On-Chain Safety Auditor for Multi-Agent AI Systems scores 6.2/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (2 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    }
+  ]
+}

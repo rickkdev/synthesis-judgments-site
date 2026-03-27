@@ -1,0 +1,264 @@
+{
+  "batch_id": "JUDGE-022",
+  "evaluated_at": "2026-03-27T20:39:25.960161Z",
+  "evaluator": "Luna (Clawdbot Agent - Automated Bulk Processing)",
+  "model": "claude-sonnet-4-5",
+  "projects": [
+    {
+      "project_id": "536",
+      "project_name": "402Claw \ufffd AI Payment Gateway on Base",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 6,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 1 commits. No video demo.",
+        "impact": "Moderate potential. 977 char description provides adequate detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "402Claw \ufffd AI Payment Gateway on Base scores 6.4/10 average. Deployed at https://402claw.cloud. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment"
+      ],
+      "concerns": [
+        "Limited development activity (1 commits)"
+      ]
+    },
+    {
+      "project_id": "168",
+      "project_name": "OBEY Agent Economy",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 0 commits. Video demo included.",
+        "impact": "Limited scope. 2395 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "OBEY Agent Economy scores 6.4/10 average. Early stage project.",
+      "notable_strengths": [
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "225",
+      "project_name": "Agent Ads by Basemate",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 2 commits. Video demo included.",
+        "impact": "Moderate potential. 1476 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Agent Ads by Basemate scores 6.8/10 average. Deployed at https://basemate.app. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (2 commits)"
+      ]
+    },
+    {
+      "project_id": "334",
+      "project_name": "Veritas",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 11 commits. Video demo included.",
+        "impact": "Moderate potential. 2459 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Repo available.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Veritas scores 6.8/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status"
+      ]
+    },
+    {
+      "project_id": "5",
+      "project_name": "Dao DeGen \u2014 0xdead.church",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 8,
+        "agentUse": 7
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 22 commits. Video demo included.",
+        "impact": "Moderate potential. 1643 char description provides comprehensive detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. ERC-8004 identity integrated."
+      },
+      "summary": "Dao DeGen \u2014 0xdead.church scores 7.0/10 average. Deployed at https://0xdead.church. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "74",
+      "project_name": "Execution Protocol (EP) \u2014 AgentIAM",
+      "scores": {
+        "innovation": 6,
+        "execution": 8,
+        "impact": 6,
+        "presentation": 7,
+        "agentUse": 8
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 32 commits. No video demo.",
+        "impact": "Moderate potential. 2357 char description provides comprehensive detail.",
+        "presentation": "Good presentation. Deployed + docs.",
+        "agentUse": "Sophisticated agent design. ERC-8004 identity integrated."
+      },
+      "summary": "Execution Protocol (EP) \u2014 AgentIAM scores 7.0/10 average. Deployed at https://achillesalpha.onrender.com/ep. Production-ready execution.",
+      "notable_strengths": [
+        "Live deployment",
+        "Comprehensive documentation"
+      ],
+      "concerns": []
+    },
+    {
+      "project_id": "9",
+      "project_name": "PayGuard: Scoped Spending Guardrails for AI Agents",
+      "scores": {
+        "innovation": 6,
+        "execution": 5,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 4 commits. No video demo.",
+        "impact": "Limited scope. 280 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "PayGuard: Scoped Spending Guardrails for AI Agents scores 5.2/10 average. Early stage project.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "Limited development activity (4 commits)",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "325",
+      "project_name": "token-reduce-skill",
+      "scores": {
+        "innovation": 6,
+        "execution": 6,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Code available. 22 commits. No video demo.",
+        "impact": "Limited scope. 356 char description provides basic detail.",
+        "presentation": "Basic documentation. Repo available.",
+        "agentUse": "Basic agent usage. Agent-first design."
+      },
+      "summary": "token-reduce-skill scores 5.4/10 average. Functional implementation.",
+      "notable_strengths": [
+        "Working implementation"
+      ],
+      "concerns": [
+        "No deployed URL - unclear production status",
+        "No video or live demo to verify functionality"
+      ]
+    },
+    {
+      "project_id": "229",
+      "project_name": "minai",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 8,
+        "agentUse": 5
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 0 commits. Video demo included.",
+        "impact": "Limited scope. 1315 char description provides adequate detail.",
+        "presentation": "Excellent documentation. Deployed + video + detailed README.",
+        "agentUse": "Basic agent usage. "
+      },
+      "summary": "minai scores 6.2/10 average. Deployed at https://minai.work. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": [
+        "Limited development activity (0 commits)"
+      ]
+    },
+    {
+      "project_id": "655",
+      "project_name": "Aegis Confidential Concierge",
+      "scores": {
+        "innovation": 6,
+        "execution": 7,
+        "impact": 5,
+        "presentation": 5,
+        "agentUse": 6
+      },
+      "rationale": {
+        "innovation": "Solid concept based on description. other used.",
+        "execution": "Deployed. 29 commits. Video demo included.",
+        "impact": "Limited scope. 733 char description provides basic detail.",
+        "presentation": "Basic documentation. Deployed + video + detailed README.",
+        "agentUse": "Functional agent integration. Agent-first design."
+      },
+      "summary": "Aegis Confidential Concierge scores 5.8/10 average. Deployed at https://aegis-confidential-concierge.vercel.app/. Functional implementation.",
+      "notable_strengths": [
+        "Live deployment",
+        "Video demonstration included"
+      ],
+      "concerns": []
+    }
+  ]
+}
